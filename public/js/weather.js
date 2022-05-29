@@ -12,13 +12,13 @@ const Dates = () => {
 
   const day_array = [];
 
-  day_array[0] = "Mon";
-  day_array[1] = "Tues";
-  day_array[2] = "Wed";
-  day_array[3] = "Thurs";
-  day_array[4] = "Fri";
-  day_array[5] = "Sat";
-  day_array[6] = "Sun";
+  day_array[0] = "Sun";
+  day_array[1] = "Mon";
+  day_array[2] = "Tues";
+  day_array[3] = "Wed";
+  day_array[4] = "Thurs";
+  day_array[5] = "Friday";
+  day_array[6] = "Sat";
 
   const month_array = [];
 

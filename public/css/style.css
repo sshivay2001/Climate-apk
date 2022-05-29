@@ -292,3 +292,10 @@ color: aliceblue;
       margin-top: 1px;
       
   }
+
+  @media(max-width:768px)
+{
+    #ciheck a:hover:after{
+        transform:scale(1.46);
+    }
+}
