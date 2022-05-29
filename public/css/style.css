@@ -293,7 +293,7 @@ color: aliceblue;
       
   }
 
-  @media(max-width:768px)
+  @media(max-width:766px)
 {
     #ciheck a:hover:after{
         transform:scale(1.36);
