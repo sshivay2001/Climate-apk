@@ -1,5 +1,5 @@
 const express = require("express");
-const port = process.env.port || 3000;
+const PORT = process.env.port || 3000;
 const app = express();
 const path = require("path");
 const hbs = require("hbs");
@@ -30,6 +30,6 @@ app.get("*", (req, res) => {
   res.render("404");
 });
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log("Listening to request");
 });
